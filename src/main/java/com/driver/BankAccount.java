@@ -35,6 +35,11 @@ public class BankAccount {
          setBalance(balance);
          setMinBalance(0);
     }
+    public BankAccount(String name, double balance,double minBalance) {
+        setName(name);
+        setBalance(balance);
+        setMinBalance(minBalance);
+    }
 
     public String generateAccountNumber(int digits, int sum) throws Exception{
         //Each digit of an account number can lie between 0 and 9 (both inclusive)
