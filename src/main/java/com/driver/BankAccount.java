@@ -33,7 +33,7 @@ public class BankAccount {
     public BankAccount(String name, double balance) {
          setName(name);
          setBalance(balance);
-         setMinBalance(minBalance);
+         setMinBalance(0);
     }
 
     public String generateAccountNumber(int digits, int sum) throws Exception{
